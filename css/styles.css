@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    --azul-escuro: #154580;
+    --azul-medio: #3970BE;
+    --azul-claro: #E5F1FF;
+    --cinza-texto: #444444;
+    --cinza-claro: #ECECEC;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: var(--azul-claro);
+    color: white;
+    box-sizing: border-box;
+    overflow: auto;
+    text-align: center;
+}
+
+@media(min-width: 834px) {
+
+    body {
+        height: 100vh;
+    }
+
+}
+
+@media(min-width: 1440px) {
+
+}
